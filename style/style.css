@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main{
+    padding-top: 2rem;
+}
+
+ol{
+    margin: 1rem 22rem;
+    line-height: 1.5rem;
+    list-style: none;
+    padding: 1rem 0;
+    background-color: beige;
+    border-radius: 12px;
+    font-size: 20px;
+}
