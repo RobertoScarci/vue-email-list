@@ -8,6 +8,20 @@
     <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <div id="app">
+        <main>
+            <h1>
+                Email List
+            </h1>
+            <ol>
+                <li v-for="email in emailList"> 
+                    {{ email }}
+                </li>
+            </ol>
+        </main>
+    </div>
     
 
     <script src="./js/script.js"></script>
